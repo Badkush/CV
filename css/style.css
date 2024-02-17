@@ -1,0 +1,118 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0rem;
+    padding: 0rem;
+    font-family: "Raleway";
+    font-size: small;
+}
+@font-face 
+{
+    font-family: "Raleway";
+    src: url(../fonts/Raleway-Bold.woff);
+    src: url(../fonts/Raleway-Bold.ttf) format("truetype");
+    src: url(../fonts/Raleway-Bold.otf) format("opentype");
+    src: url(../fonts/Raleway-Italic.woff);
+    src: url(../fonts/Raleway-Italic.ttf) format("truetype");
+    src: url(../fonts/Raleway-Italic.otf) format("opentype");
+    src: url(../fonts/Raleway-Regular.woff);
+    src: url(../fonts/Raleway-Regular.ttf) format("truetype");
+    src: url(../fonts/Raleway-Regular.otf) format("opentype");
+}
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+.lato-regular-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }  
+body
+{
+    display: flex;
+    justify-content: center;
+}
+#container
+{
+   width: 69.75rem;
+   height: 100vh;
+   background-color: #782221;
+   display: flex;
+   justify-content: center;
+}
+
+/* HEADER */
+
+header
+{
+    width: 69.75rem;
+}
+.header
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+img
+{
+   border-radius: 50%;
+   box-shadow: 6px 6px 25px grey;
+   margin: 2rem;
+   cursor: zoom-in;
+}
+h1
+{
+   color: white;
+   padding-bottom: 1rem;
+   font-family: "Lato", sans-serif;
+}
+h3
+{
+    color: white;
+    padding-bottom: 1rem;
+    font-family: "Lato", sans-serif;
+}
+
+/* ADDRESS */
+
+address
+{
+    background-color: #2c1d27;
+}
+.address
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4rem;
+}
+.maps
+{
+    display: flex;
+}
+.email
+{
+    display: flex;
+}
+.tel
+{
+    display: flex;
+}
+address a
+{
+    color: white;
+    text-decoration:none
+}
+address a:hover
+{
+    text-decoration-line: underline;
+}
