@@ -41,11 +41,13 @@ body
 {
     margin: 0 auto;
     padding: 0;
-    max-width: 1116px;
+    max-width: 1160px;
     height: 100vh;
-    width: 1116px;
+    max-height: 100vh;
+    width: 1160px;
     background-color: #782221;
 }
+
 /* HEADER */
 
 header
@@ -60,20 +62,101 @@ img
 {
   border-radius: 50%;
   box-shadow: 6px 6px 25px grey;
-  margin-top: 3rem;
   cursor: zoom-in;
+  margin-top: 4rem;
 }
 h1
 {
    color: white;
-   margin-top: 1.5rem;
+   margin-top: 1rem;
+   font-family: "Lato";
 }
 h3
 {
     color: white;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
+    padding-bottom: 2rem;
+    font-family: "Lato";
+}
+
+/* ADDRESS */
+
+address
+{
+    background-color: #2c1d27;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+}
+a
+{
+  color: white;
+  text-decoration:none
+}
+address a:hover
+{
+    text-decoration-line: underline;
+}
+
+/* MAIN */
+
+main
+{
+  display: flex;
+  height: 40rem;
+}
+aside
+{
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  background-color: #782221;
+  color: white;
+  text-indent: 2rem;
+}
+aside h4
+{
+  color: black;
+  margin-right: 1.5rem;
+  background-color: #dbc2a4;
+  font-family: ".lato-bold "
+  
+}
+blockquote
+{
+  text-indent: 10%;
+  color: white;
+}
+.droite
+{
+  background-color: white;
+  width: 70rem;
+  display: flex;
+  flex-direction: column;
+  border-right: solid;
+}
+.droite h4
+{
+  margin-left: 2rem;
+  margin-right: 1rem;
+  background-color: #dbc2a4;
+  font-family: ".lato-bold"
+}
+.droite h4:hover
+{
+  border-left: #782221;
+}
+.droite p
+{
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+.droite li
+{
+  margin-left: 2rem;
+  margin-right: 1rem;
 }
 
 
-/* MAIN */
 /* FOOTER */
