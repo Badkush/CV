@@ -63,7 +63,7 @@ img
   border-radius: 50%;
   box-shadow: 6px 6px 25px grey;
   cursor: zoom-in;
-  margin-top: 4rem;
+  ;
 }
 h1
 {
@@ -164,4 +164,17 @@ footer
 {
   display: flex;
   justify-content: center;
+  margin-top: 0.5rem;
+}
+.facebook
+{
+  display: flex;
+}
+.insta
+{
+  display: flex;
+}
+.github
+{
+  display: flex;
 }
